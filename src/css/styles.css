@@ -7,14 +7,15 @@ body {
     background-size: cover;
 }
 
-a {
-    text-decoration: none;
-}
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
