@@ -1,8 +1,8 @@
 import iziToast from 'izitoast';
 
 import { MESSAGES, MESSAGES_BG_COLORS, showInfoMessage } from './js/js.js';
-import { getGalleryData } from './pixabay-api.js';
-import { renderGallery, clearGallery, showLoader, hideLoader } from './render-functions.js';
+import { getGalleryData } from './js/pixabay-api.js';
+import { renderGallery, clearGallery, showLoader, hideLoader } from './js/render-functions.js';
 
 const form = document.querySelector('.search-form');
 
