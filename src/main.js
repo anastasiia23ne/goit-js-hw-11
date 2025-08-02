@@ -3,7 +3,7 @@ import iziToast from 'izitoast';
 import { MESSAGES, MESSAGES_BG_COLORS, showInfoMessage } from './js/js';
 
 import { getGalleryData } from './js/pixabay-api';
-import { renderGallery } from './js/render-function';
+import { renderGallery } from './js/render-functions';
 
 const form = document.querySelector('.search-form');
 const gallery = document.querySelector('.gallery');
